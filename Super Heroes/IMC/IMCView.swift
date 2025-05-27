@@ -29,6 +29,7 @@ struct IMCView: View {
                 CounterButtonView(title: "Edad", number: $age)
                 CounterButtonView(title: "Peso", number: $weight)
             }
+            CalculateButtonView(userWeight: Double(weight), userHeigth: height)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.backgroundApp)

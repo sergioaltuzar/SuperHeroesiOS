@@ -35,7 +35,7 @@ struct CounterButtonView: View {
                 }
                 Button(action: {
                     if(number < 180) {
-                        number -= 1
+                        number += 1
                     }
                 }) {
                     ZStack {
